@@ -1,0 +1,107 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+}
+
+header {
+    background-image: url(https://images.pexels.com/photos/813770/pexels-photo-813770.jpeg?auto=compress&cs=tinysrgb&w=1800);
+    width: 100%;
+    height:400px;
+    display: inline-flex;
+    flex-direction: row-reverse;
+}
+
+nav ul {
+    text-align: right;
+    font-size:20px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-right: 30px;
+    padding: 10px
+}
+
+nav ul :hover {
+    color: #2b0aac;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: white;
+}  
+
+h1, h2, h3, .learning, footer {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size:65px;
+    color: white; 
+    border: 7px solid #eae6e6;
+    padding: 5px 60px;
+    width: 400px;
+    position: relative;
+    right: 200px;
+}
+
+#text {
+    height: 150px;
+    padding-top: 30px;
+    margin: 0;
+    background-color: #2e2ea5;
+}
+
+#text p {
+    margin: 15px 30px;
+    font-size: 25px;
+    color: white;
+}
+
+.group {
+    display: flex;
+    height: 700px;
+    padding: 3px;
+    margin: 20px 10px;
+    
+}
+
+.vantagens, .learning {
+    width: 350px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.vantagens h3, .learning {
+    font-size: 32px;
+    color: #4a4ae1;
+    font-weight: 100px;
+}
+
+.vantagens p, #textvideo p {
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.video {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    margin: 20px 10px;
+}
+
+#textvideo h2 {
+    color: #4a4ae1;
+    font-size: 40px;
+    font-weight: 100px;
+}
+
+.titulos {
+    background-color: #2b0aac;
+    color: #9393a1;
+    font-size: 40px;
+    height: 150px;
+    text-align: center;
+    padding-top: 50px;
+}
