@@ -78,7 +78,7 @@ h1 {
     font-weight: 100px;
 }
 
-.vantagens p, #textvideo p {
+.vantagens p, #textvideo p, #boxform form {
     font-size: 18px;
     line-height: 40px;
 }
@@ -104,4 +104,38 @@ h1 {
     height: 150px;
     text-align: center;
     padding-top: 50px;
+}
+
+#boxform {
+    background-color: #2b0aac;
+    margin-bottom: 30px;
+}
+
+#boxform h3 {
+    color: #9393a1;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+#boxform form {
+    text-align: center;
+    color: #eae6e6;
+    padding-bottom: 20px;
+    line-height: 30px;
+}
+
+#linksrede, footer {
+    text-align: center;
+}
+
+#linksrede h4 {
+    color: #4a4ae1;
+}
+
+#linksrede ul {
+    list-style-type: none;
+    display: inline-flex;
+    gap: 90px;
 }
