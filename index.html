@@ -4,8 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex,nofollow">
+    <meta name = "description" content = "Aprenda inglês orando">
+
     <title>Praying and Learning English</title>
-    <link rel="shortcut icon" href="img/otipo-de-praying-learning-english-2.ico" type="image/x-icon">
+
+    <link rel="shortcut icon" href="./img/logotipo-praying.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
@@ -14,31 +18,80 @@
 <body>
     <header>
         <section class="cabecalho">
+            <img src="./img/logotipo-praying.ico" alt="logo da Praying Learning English, que é duas mãos unidas orando com um terço e as bandeiras norte-americanas e inglesa" ">
+            <h1>Praying and Learning English</h1> 
             <nav>
                 <ul>
                     <li><a href="">Home</a></li>
-                    <li><a href="#catalogo">Você vai aprender</a></li>
+                    <li class="dropdown"><a href="">Serviços</a>
+                        <div class="dropdown-menu">
+                            <a href="">Devocional</a>
+                            <a href="">Versículo do Dia</a>
+                            <a href="">Louvores</a>
+                        </div>
+                    </li>
                     <li><a href="#location">Onde Estamos</a></li>
                 </ul>      
-            </nav>
-
-            <img src="/img/Logotipo de Praying Learning English (2).png" alt="logo da Praying Learning English, que é duas mãos unidas orando com um terço e as bandeiras norte-americanas e inglesa" width="50px" height="50px">
-        </section>
-    
-        <h1>Praying and Learning English</h1>
-          
+            </nav>    
+        </section>  
     </header>
    
     <main>
+
+         <section class="slider">
+            <div class="slider-content">
+                
+                <input type="radio" name="btn-radio" id="radio1">
+                <input type="radio" name="btn-radio" id="radio2">
+                <input type="radio" name="btn-radio" id="radio3">
+                <input type="radio" name="btn-radio" id="radio4">
+                
+                <div class="slide-box primeiro">
+                    <p class="slide-text">Você vai aprender...</p>
+                </div>
+    
+                <div class="slide-box">
+                    <img src="./img/interrogacoes.jfif"alt="interrogação">
+                    <p class="slide-text">Como rezar?</p>
+                </div>
+    
+                <div class="slide-box">
+                    <img src="./img/book-1421097_640.jpg" alt="Bíblia no colo de uma pessoa">
+                    <p class="slide-text">Versículo do Dia</p>
+                </div>
+    
+                <div class="slide-box">
+                    <img src="./img/escrevendo.jfif" alt="bloco de anotações">
+                    <p class="slide-text">Fazendo Meu Devocional</p>
+                </div>
+    
+                <div class="nav-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+    
+                <div class="nav-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div></div>
+
+            
+        
+        </section>
+
         <section id="text">
             <p>Aprender um idioma é cada vez mais necessário para crescer profissionalmente. E para aprender é essencial
                 vivenciá-lo, então porque não fazer do seu momento de oração um momento de aprendizagem?</p>
         </section>
 
-        <section class="group">
+        <section class="card">
             <div class="vantagens">
                 <img src="https://images.unsplash.com/photo-1555431189-0fabf2667795?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fGRpY2lvbmFyaW98ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
-                alt="quebra-cabeça de palavras, representando vocabulário" width="250px" height="300px">
+                alt="quebra-cabeça de palavras, representando vocabulário">
                 <h3>Vocabulário e Gramática Natural
                 </h3>
                 <p>Quando você ainda bebê começou a falar, ninguém te ensinou gramática, então porque perder horas e horas
@@ -47,8 +100,7 @@
             </div>
 
             <div class="vantagens">
-                <img src="./img/4 Habilidades.png" alt="4 habilidades do idioma: ler, escrever, ouvir e falar" width="250
-                px" height="300px">
+                <img src="./img/4 Habilidades.png" alt="4 habilidades do idioma: ler, escrever, ouvir e falar">
                 <h3>As 4 Habilidades Aprendidas de Uma só Vez
                 </h3>
                 <p>Listening (ouvir), Reading (ler), Writing (escrever) e Speaking (falar) fazendo o que você gosta e
@@ -58,7 +110,7 @@
 
             <div class="vantagens">
                 <img src="./img/gracious-adebayo--AWIyDHiNKk-unsplash.jpg"
-                alt="mulher negra de tranças, vestida de roupa azul e com máscara orando" width="250px" height="300px">
+                alt="mulher negra de tranças, vestida de roupa azul e com máscara orando">
                 <h3>Criando Intimidade Espiritual
                 </h3>
                 <p>Medite, ore, escreva suas orações e ainda aprenda um novo idioma
@@ -73,34 +125,10 @@
                 </p>
             </div>
             
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/mpV_YteKDXk?si=gj4IuBCGpPmbbcpZ"
+            <iframe src="https://www.youtube.com/embed/mpV_YteKDXk?si=gj4IuBCGpPmbbcpZ"
                 title="YouTube video player" frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen></iframe>
-        </section>
-
-        <h2 id="catalogo" class="titulos">Você vai aprender...</h2>
-
-        <section class="group">
-            <div class="learning">
-                <img src="https://images.pexels.com/photos/5428836/pexels-photo-5428836.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="interrogação" width="250px" height="300px">
-                <p>Como rezar?
-                </p>
-            </div>
-
-            <div class="learning">
-                <img src="./img/book-1421097_640.jpg" alt="Bíblia no colo de uma pessoa" width="250px" height="300px">
-                <p>Versículo do Dia
-                </p>
-            </div>
-
-            <div class="learning">
-                <img src="./img/notepad-3297994_640.jpg" alt="bloco de anotações" width="250px" height="300px">
-                <p>Fazendo Meu Devocional
-                </p>
-            </div>
-        
         </section>
 
         <h2 id="location" class="titulos">Onde estamos?</h2>
@@ -109,7 +137,7 @@
             
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d63280.50043186467!2d-40.503971!3d-7.571569!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x79f00a68fca91cb%3A0x7c2b3b1404a4a508!2sAraripina%2C%20PE%2C%2056280-000!5e0!3m2!1spt-BR!2sbr!4v1695335338195!5m2!1spt-BR!2sbr"
-                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                 style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         </section>
@@ -117,14 +145,17 @@
         <section id="boxform">
             <h3>Cadastre-se para receber nossas novidades</h3>
 
-            <form>
-                <label for="userName">Nome</label>
-                <input type="text" name="nome" placeholder="Digite seu nome aqui"><br>
-                <label for="userEmail">Email</label>
-                <input type="email" name="email" placeholder="Digite seu email"><br>
-                <label for="userTel">Telefone</label>
-                <input type="tel" name="telefone" placeholder="Digite seu telefone"><br>
-                <input type="submit" name="enviar" value="Enviar">
+            <form class="formulario">
+                <label for="nome">Nome</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome aqui"><br>
+
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" placeholder="Digite seu email"><br>
+
+                <label for="phone" id="phone">Telefone</label><br>
+                <input type="text" id="phone" name="telefone" placeholder="Digite seu telefone"><br>
+
+                <input type="submit" id="btn-x" name="enviar" value="Enviar">
                 
             </form>
 
@@ -143,8 +174,10 @@
     </main>
 
     <footer>
-        <p>Criado por Isamara Neves - 2023, para fins didáticos.</p>
+        <p>Criado por Isamara Neves, para fins didáticos.</p>
     </footer>
+
+    <script src="project.js"></script>
 </body>
 
 </html>
