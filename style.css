@@ -19,8 +19,6 @@
     height: 40px;
 }
 
-/* Alterações do ChatGPT */
-
 nav ul {
     display: flex;
     gap: 1rem;
@@ -45,7 +43,6 @@ nav li a:hover{
     z-index: 1;
     background-color: #e2e2ea;
     display: none;
-    /* padding: 0.5rem; */
 }
 
 .dropdown-menu a{
